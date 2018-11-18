@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".FragmentCamera">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffb698">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="Règles du jeu"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:layout_marginTop="5dp" android:layout_marginBottom="-5dp"/>
+        <TextView
+                android:text="Les joueurs qui s'affrontent tentent de se déstabiliser par le biais de phrases complètement dépourvues de sens. Le joueur subissant une attaque doit contre attaquer par une phrase n'ayant aucun rapport avec la précédente et toujours aussi dépouvue de sens"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView2" android:textStyle="italic"
+                android:textSize="12sp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+        />
+        <TextView
+                android:text="- Avant de commencer le jeu, les protagonistes doivent absolument faire tourner leur langue 0,74 fois pour faire honneur au Président de la FFK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView6" android:textStyle="italic"
+                android:layout_marginBottom="0dp" android:layout_marginLeft="10dp" android:textSize="12sp"
+                android:layout_marginRight="10dp"/>
+        <TextView
+                android:text='- Le Kamoulox se joue à un contre un, avec un "Master of the Kamoulox", appelé aussi John-Bob, garant du bon déroulement du jeu en contrôlant les joueurs et les pions '
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView7" android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" android:textStyle="italic" android:textSize="12sp"/>
+        <TextView
+                android:text="- Le premier joueur est souvent l'invité et, à cet égard, lance le dé "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView8" android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" android:textStyle="italic" android:textSize="12sp"/>
+        <TextView
+                android:text="- A ce moment, plusieurs possibilités s'offrent au premier joueur :"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView9" android:textStyle="italic"
+                android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:textSize="12sp"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView10" android:textStyle="bold|italic"
+                android:text="- Il fait un as : Il peut alors tenter une bise de grand mère en La majeur, ce qui est risqué, nous y reviendrons. "
+                android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:textSize="12sp"/>
+        <TextView
+                android:text="- Il fait un deux, et peut alors se mettre sur la case guitare dans la jungle, ou encore sur celle de la Fuego enragée "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView11" android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" android:textStyle="bold|italic" android:textSize="12sp"/>
+        <TextView
+                android:text="- Il fait un trois... C'est chaud pour sa race !"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView12" android:textStyle="bold|italic"
+                android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:textSize="12sp"/>
+        <TextView
+                android:text="- Le dé est sur le quatre : Il commence par un sifflet d'ornithorynque obligatoirement enchaîné par une moule de chaîne HIFI "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView13" android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" android:textStyle="bold|italic" android:textSize="12sp"/>
+        <TextView
+                android:text="- Il fait un cinq : La grand mère du joueur est moche et pue de la gueule. Par dépit, le joueur enchaîne un replis stratégique en crachant sur son cousin et en marchant sur les oreilles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView14" android:textStyle="bold|italic"
+                android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:textSize="12sp"/>
+        <TextView
+                android:text='- Il fait un six : Il passe son tour en disant très vite "tu pues du cul" '
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView15" android:textSize="12sp"
+                android:textStyle="bold|italic" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+        <TextView
+                android:text="- Il fait un sept : Il gagne un coup de langue "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView16" android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" android:textStyle="bold|italic" android:textSize="12sp"/>
+        <TextView
+                android:text="Dans tous les cas, John-Bob peut décider d'autres conséquences au lancer de dé initial... "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView17" android:textSize="12sp"
+                android:textStyle="italic" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"/>
+        <TextView
+                android:text="A VOUS DE JOUER !"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView18" android:layout_marginTop="5dp"
+                android:textStyle="bold" android:textSize="18sp" android:textAllCaps="true"/>
+    </LinearLayout>
+
+</FrameLayout>

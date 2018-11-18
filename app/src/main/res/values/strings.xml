@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">K-Moulox</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="citationK">
+        <item>Je bois du couscous et je nettoie un paysan</item>
+        <item>Eh non, Casimir joue aux fléchettes avec une poule en case moule soviet</item>
+        <item>Pépito ou panini? Je prends la profiterole</item>
+        <item>Je caresse un pompier et je pue du pull</item>
+        <item>Je mange mon slip et je roule en Safrane</item>
+        <item>Eh non ! Suppositoire à lapin, vous ne pouvez pas</item>
+    </string-array>
+    <string-array name="src">
+        <item>MEMOR</item>
+        <item>SEMOR</item>
+        <item>MULIASSEH</item>
+        <item>DUDUDU</item>
+    </string-array>
+</resources>

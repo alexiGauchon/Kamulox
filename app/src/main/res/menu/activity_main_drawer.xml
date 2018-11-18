@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_camera"
+                android:icon="@drawable/ic_import_contacts_black_24dp"
+                android:title="Règles du jeu"/>
+        <item
+                android:id="@+id/nav_cardview"
+                android:icon="@drawable/ic_sort_by_alpha_black_24dp"
+                android:title="Citations"/>
+        <item
+                android:id="@+id/nav_gridview"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Grid view"/>
+        <item
+                android:id="@+id/nav_mc"
+                android:icon="@drawable/ic_rond"
+                android:title="Magic Circle"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share"/>
+            <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Send"/>
+        </menu>
+    </item>
+
+</menu>

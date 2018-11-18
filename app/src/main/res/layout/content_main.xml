@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/app_bar_main"
+        tools:context=".MainActivity"
+        android:id="@+id/frame"
+        android:background="#ffb698">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BIENVENUE CHEZ :"
+            android:textAlignment="center"
+            android:layout_marginTop="18dp"
+            android:shadowColor="@android:color/black"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/kamoulox"/>
+
+</android.support.constraint.ConstraintLayout>
