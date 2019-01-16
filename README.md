@@ -24,3 +24,5 @@ Les différents éléments de menus pointent vers des écrans de l’application
 - Cercle magique présentant un cercle en mouvement qui rebondit sur les bords de l'écran
 - GridView présentant un layout de type gridview à l'intérieur duquel on trouve des sitation kamulox
 - Les éléments Citation, Anko et GridView sont des activités tandis que tous les autres sont des fragments de l'activity appelée MainActivity
+
+## Capture d'écrans
