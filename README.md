@@ -1,6 +1,6 @@
 # Kamulox
 ## Auteur 
-Gauchon Alexi, Main Bensassi
+Adam Bond, Nathan Haro
 
 ## Résumé du projet 
 Mettre en pratique les éléments abordés pendant les séances de programmation Android.
