@@ -26,3 +26,8 @@ Les différents éléments de menus pointent vers des écrans de l’application
 - Les éléments Citation, Anko et GridView sont des activités tandis que tous les autres sont des fragments de l'activity appelée MainActivity
 
 ## Capture d'écrans
+![image](https://user-images.githubusercontent.com/45149566/51240346-c6e3cb00-197b-11e9-80b9-427966c618d6.jpg)
+![image](https://user-images.githubusercontent.com/45149566/51240347-c77c6180-197b-11e9-8472-efeadeac7090.jpg)
+![image](https://user-images.githubusercontent.com/45149566/51240352-cb0fe880-197b-11e9-83b5-960f91ff058d.jpg)
+![image](https://user-images.githubusercontent.com/45149566/51240353-cb0fe880-197b-11e9-8c98-2dcd66d631f8.jpg)
+![image](https://user-images.githubusercontent.com/45149566/51240355-cb0fe880-197b-11e9-8ed5-d8fc2d7d10c9.jpg)
